@@ -4,5 +4,5 @@ services:
     build:
       context: .
       dockerfile: Dockerfile # Dockerfileが違う名前の場合、ファイル名を指定
-      env_file:
-       - ../environments
+  env_file:
+    - ../environments
