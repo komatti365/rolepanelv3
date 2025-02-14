@@ -3,4 +3,6 @@ services:
   app:
     build:
       context: .
-      dockerfile: Dockerfile # Dockerfileが違う名前の場合、ファイル名を指定
+      dockerfile: ./Dockerfile # Dockerfileが違う名前の場合、ファイル名を指定
+      env_file:
+      - .env
