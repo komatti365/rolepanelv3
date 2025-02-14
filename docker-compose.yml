@@ -3,4 +3,4 @@ services:
   app:
     build:
       context: .
-      dockerfile: /home/komatti365/rolepanelv3/Dockerfile # Dockerfileが違う名前の場合、ファイル名を指定
+      dockerfile: Dockerfile # Dockerfileが違う名前の場合、ファイル名を指定
